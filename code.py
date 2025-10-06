@@ -52,3 +52,10 @@ for i in range(6):
 ax6.set_title('Varias líneas (todas las columnas)')
 ax6.legend()
 
+for ax in [ax1, ax2, ax3, ax4, ax6]:
+    ax.legend()
+    ax.grid(True)
+
+plt.tight_layout()
+plt.show()
+
